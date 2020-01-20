@@ -1,0 +1,61 @@
+# Get Users
+GET /users/ HTTP/1.1
+Host: localhost:5000
+Content-Type: application/json
+###
+
+# Add new User
+POST /users/add HTTP/1.1
+Host: localhost:5000
+Content-Type: application/json
+
+{
+	"username": "quincy"
+}
+###
+
+# Get Exercises
+GET /exercises/ HTTP/1.1
+Host: localhost:5000
+Content-Type: application/json
+###
+
+# Create new Exercise
+POST /exercises/add HTTP/1.1
+Host: localhost:5000
+Content-Type: application/json
+
+{
+	"username": "beau",
+    "description": "jump",
+    "duration": 45,
+    "date": "2019-05-29T02:22:49.052Z"
+}
+
+###
+
+# Get Exercise by ID
+GET /exercises/5e2546bb062ccd5a82abe0c1 HTTP/1.1
+Host: localhost:5000
+Content-Type: application/json
+
+###
+
+# Update exercise by ID
+POST /exercises/update/5e2546bb062ccd5a82abe0c1 HTTP/1.1
+Host: localhost:5000
+Content-Type: application/json
+
+{
+	"username": "beau",
+    "description": "walk",
+    "duration": 120,
+    "date": "2019-05-29T02:22:49.052Z"
+}
+
+###
+
+# Delete exercise by ID
+DELETE /exercises/5e2546bb062ccd5a82abe0c1 HTTP/1.1
+Host: localhost:5000
+Content-Type: application/json
