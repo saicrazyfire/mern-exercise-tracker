@@ -17,7 +17,12 @@ Pre-requisites:
 
 ---
 
+## Creating the project
+
 1. Run `npx create-react-app mern-exercise-tracker` to create the folder/React project
+
+## Setting up the backend
+
 2. Change directory into newly created folder `cd mern-exercise-tracker`
 3. Create new folder `backend` and change into it
 4. Run `npm init -y` to create npm scaffold project with default values
@@ -29,4 +34,14 @@ Pre-requisites:
 10. Input the schema into each respective model file
 11. In the backend folder, create a new folder called `routes` with two files `exercises.js` and `users.js`
 12. Update `server.js` to use the newly created routes
-13.
+13. Input the routes into the newly created routes files. Include advanced features like update by ID and deleting exercises
+
+### Done with backend!
+
+You are done with the backend (for the video section)! Skip to 43:37 in the video to proceed with the frontend
+
+---
+
+## Setting up the frontend
+
+### _TBD_
